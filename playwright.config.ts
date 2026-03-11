@@ -2,8 +2,8 @@ import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
   testDir: "./tests/e2e",
-  baseURL: "https://stackbreach.ashketing.com",
   use: {
+    baseURL: "https://stackbreach.ashketing.com",
     headless: true,
     screenshot: "only-on-failure",
   },
