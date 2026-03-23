@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background circle for profile use -->
+  <rect width="64" height="64" rx="12" fill="#2E5BE8"/>
+  
+  <!-- Shield body on blue bg -->
+  <path d="M32 8 L50 15 L50 36 Q50 50 32 58 Q14 50 14 36 L14 15 Z" 
+        fill="white" opacity="0.95"/>
+  <!-- Inner shield -->
+  <path d="M32 13 L45 19 L45 36 Q45 47 32 53 Q19 47 19 36 L19 19 Z" 
+        fill="#2E5BE8"/>
+  <!-- Scan lines -->
+  <line x1="24" y1="30" x2="40" y2="30" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="24" y1="35" x2="40" y2="35" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="24" y1="40" x2="40" y2="40" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Checkmark -->
+  <polyline points="24,35 29,41 40,27" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

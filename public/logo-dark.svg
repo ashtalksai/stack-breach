@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" width="280" height="72">
+  <!-- For dark backgrounds (sidebar, dark mode) -->
+  
+  <!-- Shield icon mark -->
+  <g transform="translate(0, 4)">
+    <path d="M32 4 L52 12 L52 32 Q52 48 32 56 Q12 48 12 32 L12 12 Z" 
+          fill="#2E5BE8" />
+    <path d="M32 8 L48 15 L48 32 Q48 44 32 51 Q16 44 16 32 L16 15 Z" 
+          fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+    <line x1="22" y1="26" x2="42" y2="26" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="22" y1="31" x2="42" y2="31" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="22" y1="36" x2="42" y2="36" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+    <polyline points="23,31 29,37 41,23" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Wordmark — white for dark bg -->
+  <text x="68" y="38" 
+        font-family="Plus Jakarta Sans, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-weight="800" 
+        font-size="22" 
+        fill="#FFFFFF" 
+        letter-spacing="-0.5">Stack</text>
+  <text x="68" y="62" 
+        font-family="Plus Jakarta Sans, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-weight="700" 
+        font-size="22" 
+        fill="#6B9FFF" 
+        letter-spacing="-0.5">Breach</text>
+</svg>

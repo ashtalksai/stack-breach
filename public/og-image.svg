@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1917;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E2240;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="85%" cy="20%" r="55%">
+      <stop offset="0%" style="stop-color:#2E5BE8;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#2E5BE8;stop-opacity:0" />
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1" fill="rgba(255,255,255,0.06)"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#blueGlow)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1200" height="3" fill="#2E5BE8"/>
+  
+  <!-- Logo top-left -->
+  <g transform="translate(60, 50) scale(1.4)">
+    <path d="M32 4 L52 12 L52 32 Q52 48 32 56 Q12 48 12 32 L12 12 Z" fill="#2E5BE8"/>
+    <line x1="22" y1="26" x2="42" y2="26" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="22" y1="31" x2="42" y2="31" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="22" y1="36" x2="42" y2="36" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+    <polyline points="23,31 29,37 41,23" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="140" y="70" 
+        font-family="Plus Jakarta Sans, -apple-system, sans-serif" 
+        font-weight="800" font-size="20" 
+        fill="white" letter-spacing="-0.5">Stack Breach</text>
+  
+  <!-- Main content centered -->
+  <!-- Badge -->
+  <rect x="60" y="160" width="260" height="38" rx="19" fill="rgba(46,91,232,0.25)" stroke="#2E5BE8" stroke-width="1" stroke-opacity="0.6"/>
+  <circle cx="86" cy="179" r="6" fill="#16A34A"/>
+  <text x="103" y="184" 
+        font-family="Plus Jakarta Sans, -apple-system, sans-serif" 
+        font-weight="600" font-size="13" 
+        fill="#6B9FFF" letter-spacing="0.5">SHADOW AI DETECTION</text>
+  
+  <!-- Big headline -->
+  <text x="60" y="270" 
+        font-family="Plus Jakarta Sans, -apple-system, sans-serif" 
+        font-weight="800" font-size="68" 
+        fill="white" letter-spacing="-2.5">Know Every AI Tool</text>
+  <text x="60" y="350" 
+        font-family="Plus Jakarta Sans, -apple-system, sans-serif" 
+        font-weight="800" font-size="68" 
+        fill="white" letter-spacing="-2.5">in Your Stack.</text>
+  
+  <!-- Sub-headline -->
+  <text x="60" y="405" 
+        font-family="Plus Jakarta Sans, -apple-system, sans-serif" 
+        font-weight="400" font-size="24" 
+        fill="rgba(255,255,255,0.55)" letter-spacing="-0.5">Before the Auditor Does.</text>
+  
+  <!-- Dashboard preview card on right -->
+  <g transform="translate(760, 100)">
+    <!-- Card bg -->
+    <rect width="380" height="430" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    
+    <!-- Card header -->
+    <rect width="380" height="52" rx="12" fill="rgba(255,255,255,0.05)"/>
+    <rect x="0" y="40" width="380" height="12" fill="rgba(255,255,255,0.05)"/>
+    <text x="20" y="32" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="13" fill="rgba(255,255,255,0.7)">Org Risk Dashboard</text>
+    <!-- Window dots -->
+    <circle cx="332" cy="26" r="5" fill="rgba(255,255,255,0.15)"/>
+    <circle cx="350" cy="26" r="5" fill="rgba(255,255,255,0.15)"/>
+    <circle cx="368" cy="26" r="5" fill="rgba(255,255,255,0.15)"/>
+    
+    <!-- Risk score card -->
+    <rect x="16" y="68" width="348" height="110" rx="8" fill="rgba(46,91,232,0.12)" stroke="rgba(46,91,232,0.3)" stroke-width="1"/>
+    <text x="36" y="108" font-family="JetBrains Mono, monospace" font-weight="700" font-size="56" fill="#D97706">67</text>
+    <text x="100" y="98" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="12" fill="rgba(255,255,255,0.5)">RISK SCORE</text>
+    <text x="100" y="116" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="18" fill="#D97706">Medium Risk</text>
+    <text x="100" y="134" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="400" font-size="12" fill="rgba(255,255,255,0.4)">4 unauthorized tools detected</text>
+    <rect x="36" y="148" width="82" height="20" rx="10" fill="rgba(220,38,38,0.2)" stroke="rgba(220,38,38,0.4)" stroke-width="1"/>
+    <text x="55" y="162" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="11" fill="#DC2626">4 HIGH</text>
+    <rect x="126" y="148" width="82" height="20" rx="10" fill="rgba(217,119,6,0.2)" stroke="rgba(217,119,6,0.4)" stroke-width="1"/>
+    <text x="144" y="162" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="11" fill="#D97706">4 MED</text>
+    <rect x="216" y="148" width="72" height="20" rx="10" fill="rgba(22,163,74,0.2)" stroke="rgba(22,163,74,0.4)" stroke-width="1"/>
+    <text x="232" y="162" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="11" fill="#16A34A">2 LOW</text>
+    
+    <!-- Tool rows -->
+    <text x="20" y="207" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="12" fill="rgba(255,255,255,0.35)" letter-spacing="0.5">DETECTED TOOLS</text>
+    
+    <!-- Tool row 1 -->
+    <rect x="16" y="218" width="348" height="44" rx="6" fill="rgba(255,255,255,0.03)"/>
+    <circle cx="40" cy="240" r="12" fill="rgba(220,38,38,0.15)"/>
+    <text x="34" y="244" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="700" font-size="11" fill="#DC2626">C</text>
+    <text x="60" y="237" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="13" fill="rgba(255,255,255,0.85)">ChatGPT Enterprise</text>
+    <text x="60" y="252" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="400" font-size="11" fill="rgba(255,255,255,0.35)">Browser Extension • 12 employees</text>
+    <rect x="292" y="231" width="58" height="20" rx="10" fill="rgba(220,38,38,0.2)"/>
+    <text x="309" y="245" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="11" fill="#DC2626">HIGH</text>
+    
+    <!-- Tool row 2 -->
+    <rect x="16" y="270" width="348" height="44" rx="6" fill="rgba(255,255,255,0.03)"/>
+    <circle cx="40" cy="292" r="12" fill="rgba(217,119,6,0.15)"/>
+    <text x="33" y="296" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="700" font-size="11" fill="#D97706">G</text>
+    <text x="60" y="289" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="13" fill="rgba(255,255,255,0.85)">GitHub Copilot</text>
+    <text x="60" y="304" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="400" font-size="11" fill="rgba(255,255,255,0.35)">IDE Plugin • 8 employees</text>
+    <rect x="284" y="283" width="66" height="20" rx="10" fill="rgba(217,119,6,0.2)"/>
+    <text x="295" y="297" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="11" fill="#D97706">MEDIUM</text>
+    
+    <!-- Tool row 3 -->
+    <rect x="16" y="322" width="348" height="44" rx="6" fill="rgba(255,255,255,0.03)"/>
+    <circle cx="40" cy="344" r="12" fill="rgba(22,163,74,0.15)"/>
+    <text x="35" y="348" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="700" font-size="11" fill="#16A34A">G</text>
+    <text x="60" y="341" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="13" fill="rgba(255,255,255,0.85)">Grammarly</text>
+    <text x="60" y="356" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="400" font-size="11" fill="rgba(255,255,255,0.35)">SaaS • 22 employees</text>
+    <rect x="298" y="335" width="52" height="20" rx="10" fill="rgba(22,163,74,0.2)"/>
+    <text x="311" y="349" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="600" font-size="11" fill="#16A34A">LOW</text>
+    
+    <!-- CTA button -->
+    <rect x="16" y="380" width="348" height="40" rx="8" fill="#2E5BE8"/>
+    <text x="190" y="405" text-anchor="middle" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="700" font-size="14" fill="white">Generate Compliance Report →</text>
+  </g>
+  
+  <!-- Bottom stats row -->
+  <g transform="translate(60, 490)">
+    <text x="0" y="20" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="800" font-size="24" fill="#2E5BE8">500+</text>
+    <text x="0" y="40" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="400" font-size="13" fill="rgba(255,255,255,0.4)">SMBs Protected</text>
+    
+    <line x1="100" y1="5" x2="100" y2="45" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    
+    <text x="116" y="20" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="800" font-size="24" fill="#2E5BE8">5 min</text>
+    <text x="116" y="40" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="400" font-size="13" fill="rgba(255,255,255,0.4)">To Audit Report</text>
+    
+    <line x1="240" y1="5" x2="240" y2="45" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    
+    <text x="256" y="20" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="800" font-size="24" fill="#2E5BE8">$199</text>
+    <text x="256" y="40" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="400" font-size="13" fill="rgba(255,255,255,0.4)">vs $50K Enterprise</text>
+    
+    <line x1="380" y1="5" x2="380" y2="45" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    
+    <text x="396" y="20" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="800" font-size="24" fill="#2E5BE8">12K+</text>
+    <text x="396" y="40" font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="400" font-size="13" fill="rgba(255,255,255,0.4)">Tools Detected</text>
+  </g>
+</svg>
